@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    background-color: rgb(237, 237, 237);
+}
+.container{
+    margin: 0px auto;
+    width: 1100px;
+    position: relative;
+    background-color: white;
+    
+
+}
+header{
+    background-color: tomato;
+    height: 100px;
+   
+}
+header .top-right{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    right: 0px;
+  
+}
+header .top-left{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 5px;
+}
+.hdchu{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+    
+}
+
+b{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+footer{
+    line-height: 100px;
+    background-color:rgb(249, 239, 222);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.bang{
+text-align: center;
+}
+.ma{
+    margin-right: 10px;
+
+}
+.giua{
+position: absolute;
+top: 30px;
+left: 15%;
+}
+.inp{
+width: 700px;
+height: 40px;
+line-height: 40px;
+background-color: white;
+border-radius: 5px;
+
+
+}
+.inp>input{
+width: 600px;
+height: 28px;
+margin-left: 5px;
+border-radius: 5px;
+border: none;
+outline: none;
+
+
+}
+.inp>.icon{
+    width: 70px;
+    height: 35px;
+    color: white    ;
+    background-color: tomato;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    
+    text-align: center;
+}
+.container>.icont{
+    color: white;
+    position: absolute;
+    top: 45px;
+    right: 15%;
+}
+nav>.container{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+}
+  nav.container>.float-feft{
+    float: left;
+    width: 65%;
+    background-color: aquamarine;
+    height: 280px;
+
+}
+ nav.container>.floeat-right{
+    float: right;
+    width: 35%;
+    background-color: brown;
+    height: 280px;
+}
